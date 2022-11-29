@@ -154,4 +154,8 @@ if(isXNine){
 */
 
 /* 
+let age=10;
+let eligibility;
+eligibility= "age>15" ? Yes : No ;
+
  */

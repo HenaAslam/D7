@@ -5,7 +5,11 @@
  The choice should be made based on the value of another variable called isMale.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+ let gender;
+ let isMale= Male;
+ gender=(isMale)? Male : Female;
+*/
 
 /*EX 2
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
@@ -124,4 +128,11 @@ console.log("The percentage is:", res); */
  Write a piece of code for checking if a given number is even or odd.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* let inpNum=10;
+let checkModulo=inpNum%2;
+if(checkModulo==0){
+    console.log("Even");
+}
+else{
+    console.log("Odd");
+} */

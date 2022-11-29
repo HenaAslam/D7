@@ -133,3 +133,13 @@ let theNum=300;
 let perc=10;
 let res= (perc/100)*theNum;
 console.log("The percentage is:", res);
+
+
+let inpNum=10;
+let checkModulo=inpNum%2;
+if(checkModulo==0){
+    console.log("Even");
+}
+else{
+    console.log("Odd");
+}
