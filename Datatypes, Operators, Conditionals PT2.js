@@ -4,8 +4,11 @@
  Use a ternary operator to assign to a variable called gender the string values "male" or "female".
  The choice should be made based on the value of another variable called isMale.
 */
-
-/* WRITE YOUR ANSWER HERE */
+/*
+let gender;
+let isMale= true;
+gender=(isMale) ?  male:FileSystemHandle;
+ */
 
 /*EX 2
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.

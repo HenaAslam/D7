@@ -143,3 +143,8 @@ if(checkModulo==0){
 else{
     console.log("Odd");
 }
+
+let isMale=true;
+let gender= (isMale===true) ? "Male" : "Female" ;
+console.log(gender);
+
