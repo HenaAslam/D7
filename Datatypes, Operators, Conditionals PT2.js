@@ -39,32 +39,86 @@ console.log("The full name is", fullName);
  Display the result in the console.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* 
+let first=9;
+let second=1;
+let third=12;
+
+if(first>second && first>third){
+    if(second>third){
+        console.log(first,second,third);
+    }
+    else{
+        console.log(first,third,second);
+    }
+}
+if(second>first&& second>third){
+    if(first>third){
+        console.log(second,first,third);
+    }
+    else{
+        console.log(second,third,first);
+    }
+}
+if(third>second && third>first){
+    if(second>first){
+        console.log(third,second,first);
+    }
+    else{
+        console.log(third,first,second);
+    }
+}
+*/
 
 /*EX 5
  Write a piece of code for finding the average of two given integers.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* let firstInt=5;
+let secondInt=10;
+let avg=(firstInt+secondInt)/2;
+console.log("The average is", avg);
+ */
 
 /*EX 6
  Write a piece of code for finding the longest of two given strings.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* 
+let strOne="abcdefgh";
+let strTwo="asdasdsadssdsasd";
+lengOne=strOne.length;
+lengTwo=strTwo.length;
+if(lengOne>lengTwo){
+    console.log(strOne);
+}
+else{
+    console.log(strTwo);
+}
+*/
 
 /*EX 7
  Write a piece of code for checking if a given value is a integer or not.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* let num=14;
+let intCheck=num%2 === 1 || num%2 ===0;
+if(intCheck){
+    console.log("Integer");
+}
+else{
+    console.log("Not Integer");
+} */
 
 /*EX 8
  Write a piece of code for calculating a certain percentage of a given number.
  (Ex.: the 20% of 400 is 80)
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* let theNum=300;
+let perc=10;
+let res= (perc/100)*theNum;
+console.log("The percentage is:", res); */
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.

@@ -74,6 +74,62 @@ let lastName="Asslam";
 let fullName=firstName+lastName;
 console.log("The full name is", fullName);
 
-let first=5;
-let second=8;
-let third=2;
+let first=9;
+let second=1;
+let third=12;
+
+if(first>second && first>third){
+    if(second>third){
+        console.log(first,second,third);
+    }
+    else{
+        console.log(first,third,second);
+    }
+}
+if(second>first&& second>third){
+    if(first>third){
+        console.log(second,first,third);
+    }
+    else{
+        console.log(second,third,first);
+    }
+}
+if(third>second && third>first){
+    if(second>first){
+        console.log(third,second,first);
+    }
+    else{
+        console.log(third,first,second);
+    }
+}
+
+let firstInt=5;
+let secondInt=10;
+let avg=(firstInt+secondInt)/2;
+console.log("The average is", avg);
+
+let strOne="abcdefgh";
+let strTwo="asdasdsadssdsasd";
+lengOne=strOne.length;
+lengTwo=strTwo.length;
+if(lengOne>lengTwo){
+    console.log(strOne);
+}
+else{
+    console.log(strTwo);
+}
+
+
+let num=14;
+let intCheck=num%2 === 1 || num%2 ===0;
+if(intCheck){
+    console.log("Integer");
+}
+else{
+    console.log("Not Integer");
+}
+
+let theNum=300;
+let perc=10;
+let res= (perc/100)*theNum;
+console.log("The percentage is:", res);
