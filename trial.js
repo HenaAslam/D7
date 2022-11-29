@@ -58,3 +58,18 @@ let isXNine= x===9;
 if(isXNine){
     console.log("One");
 }
+
+
+let firstInteger=7;
+let secondInteger=16;
+let isEight= firstInteger===8 || secondInteger===8;
+let add= firstInteger + secondInteger === 8;
+let minus= firstInteger - secondInteger === 8;
+let result= isEight || add || minus;
+console.log("the value of one of them is 8 or if their addition or subtraction is equal to 8:",result);
+
+
+let firstName="Hena";
+let lastName="Asslam";
+let fullName=firstName+lastName;
+console.log("The full name is", fullName);
