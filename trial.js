@@ -73,3 +73,7 @@ let firstName="Hena";
 let lastName="Asslam";
 let fullName=firstName+lastName;
 console.log("The full name is", fullName);
+
+let first=5;
+let second=8;
+let third=2;
